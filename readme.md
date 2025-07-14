@@ -1,4 +1,3 @@
-````md
 # ⚡ Netmonk API Test Runner (macOS Edition)
 
 Script bash interaktif buat ngejalanin **automated API tests** dari Postman collection via [Newman](https://www.npmjs.com/package/newman) — lengkap sama UI selector pakai [`fzf`](https://github.com/junegunn/fzf), dan report HTML kece via [`htmlextra`](https://www.npmjs.com/package/newman-reporter-htmlextra).
@@ -24,7 +23,6 @@ Buka Terminal dan jalankan:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-````
 
 Setelah selesai, ketik `brew` buat tes apakah udah berhasil.
 
@@ -174,3 +172,7 @@ source ~/.zshrc
 
 Made with 💙 by [Rangga Hadi Putra](https://ranggabiner.com)
 `Cc Netmonk 2025` | QA ⚙️ Automation Enthusiast
+
+```
+
+```
