@@ -118,7 +118,7 @@ Langsung gas tanpa setup ulang ⚡
 
 ## 👨‍💻 Author
 
-Made with 💙 by [Rangga Hadi Putra](mailto:ranggabiner@gmail.com)  
+Made with 💙 by [Rangga Hadi Putra](https://ranggabiner.com)  
 `Cc Netmonk 2025` | QA ⚙️
 
 ---
