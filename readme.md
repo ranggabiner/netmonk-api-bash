@@ -174,7 +174,3 @@ source ~/.zshrc
 
 Made with 💙 by [Rangga Hadi Putra](https://ranggabiner.com)
 `Cc Netmonk 2025` | QA ⚙️ Automation Enthusiast
-
-```
-
-```
