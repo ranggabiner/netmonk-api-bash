@@ -88,12 +88,13 @@ Pastikan folder project lo punya struktur seperti ini sebelum menjalankan script
 ├── 🟢 netmonk_api.sh          # script utama buat jalanin testing
 ├── 🟡 config.env              # file environment config (jangan di-commit ke Git!)
 ├── 📄 README.md               # dokumentasi kece ini
+├── 🔒 .gitignore              # file yang ngejaga config.env biar gak ikut ke-push
 ```
 
 📝 **Note:**
 
 - `config.env` harus disunting via code editor (kayak VS Code) supaya gak typo
-- File ini _tidak perlu di-push ke GitHub_, karena berisi API key (sensitive data) 🛡️
+- `config.env` berisi data sensitif → pastikan udah masuk di `.gitignore`
 
 ---
 
