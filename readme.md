@@ -84,7 +84,7 @@ PORTAL_ENVIRONMENT_ID="ENV_ID_PORTAL"
 Pastikan folder project lo punya struktur seperti ini sebelum menjalankan script:
 
 ```
-📦 netmonk-api-bash/
+📦 netmonk-api-shell/
 ├── 🟢 netmonk_api.sh          # script utama buat jalanin testing
 ├── 🟡 config.env              # file environment config (jangan di-commit ke Git!)
 ├── 📄 README.md               # dokumentasi kece ini
@@ -102,7 +102,7 @@ Pastikan folder project lo punya struktur seperti ini sebelum menjalankan script
 ### 1. Masuk ke Folder Script
 
 ```bash
-cd /folder/tempat/netmonk_api.sh
+cd /folder/tempat/lu/naruh/netmonk-api-shell
 ```
 
 ### 2. Bikin Script Bisa Dieksekusi
