@@ -51,6 +51,24 @@ PORTAL_ENVIRONMENT_ID="ENV_ID_PORTAL"
 
 ---
 
+### 📁 Folder Structure
+
+Pastikan folder project lo punya struktur seperti ini sebelum menjalankan script:
+
+```
+📦 netmonk-api-bash/
+├── 🟢 netmonk_api.sh          # script utama buat jalanin testing
+├── 🟡 config.env              # file environment config (jangan di-commit ke Git!)
+├── 📄 README.md               # dokumentasi kece ini
+```
+
+📝 **Note:**
+
+- `config.env` harus disunting via code editor (kayak VS Code) supaya gak ada typo atau format salah.
+- File ini _tidak perlu di-push ke GitHub_, karena berisi API key (sensitive data) 🛡️
+
+---
+
 ## 🚀 How to Use
 
 ### 1. Masuk ke Folder Script
