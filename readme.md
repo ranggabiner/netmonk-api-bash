@@ -51,7 +51,7 @@ PORTAL_ENVIRONMENT_ID="ENV_ID_PORTAL"
 
 ---
 
-### 📁 Folder Structure
+## 📁 Folder Structure
 
 Pastikan folder project lo punya struktur seperti ini sebelum menjalankan script:
 
