@@ -1,4 +1,5 @@
-# ⚡ Netmonk API Test Runner
+````md
+# ⚡ Netmonk API Test Runner (macOS Edition)
 
 Script bash interaktif buat ngejalanin **automated API tests** dari Postman collection via [Newman](https://www.npmjs.com/package/newman) — lengkap sama UI selector pakai [`fzf`](https://github.com/junegunn/fzf), dan report HTML kece via [`htmlextra`](https://www.npmjs.com/package/newman-reporter-htmlextra).
 
@@ -14,18 +15,47 @@ Script bash interaktif buat ngejalanin **automated API tests** dari Postman coll
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Installation (macOS)
 
-> ✅ Tested on macOS. Lo butuh `brew` dan `node/npm` udah ke-install ya say.
+### 0. Install Homebrew (jika belum ada)
+
+Buka Terminal dan jalankan:
 
 ```bash
-# 1. Install fzf (buat UI pilihannya)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+````
+
+Setelah selesai, ketik `brew` buat tes apakah udah berhasil.
+
+---
+
+### 1. Install `fzf` (buat UI interaktif)
+
+```bash
 brew install fzf
+```
 
-# 2. Install newman (buat run postman collection)
+Optional (biar makin mantep):
+
+```bash
+$(brew --prefix)/opt/fzf/install
+```
+
+---
+
+### 2. Install Node.js & npm (jika belum ada)
+
+```bash
+brew install node
+```
+
+---
+
+### 3. Install `newman` dan reporter HTML
+
+```bash
 npm install -g newman
-
-# 3. Install htmlextra (buat hasilin report HTML kece)
 npm install -g newman-reporter-htmlextra
 ```
 
@@ -64,7 +94,7 @@ Pastikan folder project lo punya struktur seperti ini sebelum menjalankan script
 
 📝 **Note:**
 
-- `config.env` harus disunting via code editor (kayak VS Code) supaya gak ada typo atau format salah.
+- `config.env` harus disunting via code editor (kayak VS Code) supaya gak typo
 - File ini _tidak perlu di-push ke GitHub_, karena berisi API key (sensitive data) 🛡️
 
 ---
@@ -89,7 +119,7 @@ chmod +x netmonk_api.sh
 ./netmonk_api.sh
 ```
 
-Script bakal nampilin pilihan:
+Script bakal munculin pilihan:
 
 ```
 PRIME
@@ -132,11 +162,19 @@ Kalau udah pernah `chmod +x`, buat selanjutnya tinggal:
 
 Langsung gas tanpa setup ulang ⚡
 
+Kalau `fzf` nggak muncul, coba restart terminal dulu atau ketik:
+
+```bash
+source ~/.zshrc
+```
+
 ---
 
 ## 👨‍💻 Author
 
-Made with 💙 by [Rangga Hadi Putra](https://ranggabiner.com)  
-`Cc Netmonk 2025` | QA ⚙️
+Made with 💙 by [Rangga Hadi Putra](https://ranggabiner.com)
+`Cc Netmonk 2025` | QA ⚙️ Automation Enthusiast
 
----
+```
+
+```
